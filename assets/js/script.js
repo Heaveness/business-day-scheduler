@@ -1,15 +1,19 @@
 // Wrap all code that interacts with the DOM in a call to jQuery to ensure that
 // the code isn't run until the browser has finished rendering all the elements
 // in the html.
-var dayDisplayEle = $('#day-display');
+var dayDisplayEl = $('#day-display');
+var textBlockEl = $('textarea')
 
-
+displayDay();
 function displayDay() {
-  var rightNow = dayjs().format('MMM DD, YYYY [at] hh:mm:ss a');
-  dayDisplayEle.text(rightNow);
+  var currentTime = dayjs().format('MMM DD, YYYY [at] hh:mm:ss a');
+  dayDisplayEl.text(currentTime);
 }
-
 setInterval(displayDay, 1000);
+
+$('.saveBtn').click(function() {
+  console.log("Saved!");
+});
 
 $(function () {
 
@@ -31,5 +35,5 @@ $(function () {
   // the values of the corresponding textarea elements. HINT: How can the id
   // attribute of each time-block be used to do this?
   //
-  // TODO: Add code to display the current date in the header of the page.
+  // TODO: Add code to display the current date in the header of the page. (done)
 });
