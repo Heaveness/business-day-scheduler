@@ -1,12 +1,15 @@
+/*CSS Property for the body element.*/
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
 }
 
+/*CSS Property for the currentDay class element.*/
 #currentDay {
   font-size: 32px;
 }
 
+/*CSS Property for the clear-history class element.*/
 #clear-history {
   background-color: #06aed5;
   font-weight: bold;
@@ -14,11 +17,13 @@ body {
   transition: 0.2s;
 }
 
+/*CSS Property for the clear-history class when mouse hovered.*/
 #clear-history:hover {
   transition: 0.2s;
   opacity: 1.0;
 }
 
+/*CSS Property for the textarea element in the time blocks.*/
 textarea {
   background: transparent;
   border: none;
@@ -28,39 +33,47 @@ textarea {
   padding: 10px;
 }
 
+/*CSS Property for the description class within textarea element.*/
 .description {
   white-space: pre-wrap;
 }
 
+/*CSS Property for the time-block classes.*/
 .time-block {
   border-radius: 15px;
 }
 
+/*CSS Property for the row elements.*/
 .row {
   border-top: 1px solid white;
 }
 
+/*CSS Property for the hour boxes.*/
 .hour {
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
 }
 
+/*CSS Property for the past time block.*/
 .past {
   background-color: #d3d3d3;
   color: white;
 }
 
+/*CSS Property for the present time block.*/
 .present {
   background-color: #ff6961;
   color: white;
 }
 
+/*CSS Property for the future time block.*/
 .future {
   background-color: #77dd77;
   color: white;
 }
 
+/*CSS Property for the save buttons.*/
 .saveBtn {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
@@ -69,12 +82,13 @@ textarea {
   color: white;
 }
 
+/*CSS Property for the save buttons when mouse hovered.*/
 .saveBtn i:hover {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
 }
 
-/* The Modal (background) */
+/*CSS Property for the  The Modal (background). */
 .modal {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
@@ -89,7 +103,7 @@ textarea {
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
 
-/* Modal Content */
+/*CSS Property for the Modal Content. */
 .modal-content {
   background-color: #fefefe;
   align-items: center;
@@ -101,6 +115,7 @@ textarea {
   width: 30%;
 }
 
+/*CSS Property for the confirm Yes button within Modal.*/
 .confirmYesBtn {
   width: 100px;
   display: inline;
@@ -111,12 +126,14 @@ textarea {
   transition: 0.2s;
 }
 
+/*CSS Property for the confirm Yes button within Modal when mouse hovered.*/
 .confirmYesBtn:hover {
   opacity: 1.0;
   transition: 0.2s;
   color: black;
 }
 
+/*CSS Property for the confirm No button within Modal.*/
 .confirmNoBtn {
   width: 100px;
   display: inline;
@@ -127,6 +144,7 @@ textarea {
   transition: 0.2s;
 }
 
+/*CSS Property for the confirm No button within Modal when mouse hovered.*/
 .confirmNoBtn:hover {
   opacity:1.0;
   transition: 0.2s;
