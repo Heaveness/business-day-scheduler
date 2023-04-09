@@ -17,6 +17,7 @@ Don't believe me? Give this website a try! <br>
 ## Credits
 
 **Websites:** W3schools, stackoverflow, & reddit <br>
+**Starter Code:** Georgeyoo, mfyke, & courtthecoop <br>
 **Third-party APIs:** [Bootstrap](https://getbootstrap.com/), [jQuery](https://jquery.com/), [Day.js](https://day.js.org/), [Fontawesome](https://fontawesome.com/) [Google Fonts](https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap) <br>
 **Instructor(s):** Ali Maqsood, Daler Singh <br>
 **Assistant Instructor(s):** Shihan, Adam, Krishna, Tareque Moatar <br>
